@@ -10,7 +10,7 @@ import '../config.js'
 export async function before(m, { conn }) {	
 global.key = ''
 let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? this.user.jid : m.sender
-let pp = await this.profilePictureUrl(who, 'image').catch(_ => "https://cloud.dorratz.com/files/77ab8bf550effc29038f74f2111eff8b.jpg")
+let pp = await this.profilePictureUrl(who, 'image').catch(_ => "https://i.imgur.com/8FEimzs.jpeg")
 
 // Fake
 global.fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
@@ -41,12 +41,12 @@ li.DESTRAVip.to
 }
 //export default handler
 
-global.bot = "wa.me/525577917106"
-global.canales = [canal1, canal2, canal3, canal4][Math.floor(Math.random() * 4)]
-global.welgata = [tk, ig, md, yt, paypal, fb, ths, asistencia][Math.floor(Math.random() * 8)]
-global.redesMenu = [all, canal1, canal2, canal3, canal4, md, ig, paypal, yt, asistencia, fb, tk][Math.floor(Math.random() * 12)]
-global.accountsgb = [all, canal1, canal2, canal3, canal4, tk, ig, yt, paypal, fb, ths, md, asistencia][Math.floor(Math.random() * 13)]
-global.cuentas = [grupo1, grupo2, grupo_collab1, grupo_collab2, grupo_collab3, grupo_collab4][Math.floor(Math.random() * 6)]
+global.bot = "wa.me/523326788777"
+global.canales = [][Math.floor(Math.random() * 4)]
+global.welgata = [][Math.floor(Math.random() * 8)]
+global.redesMenu = [][Math.floor(Math.random() * 12)]
+global.accountsgb = [][Math.floor(Math.random() * 13)]
+global.cuentas = [][Math.floor(Math.random() * 6)]
 
 global.canalIdGB = ["120363350486178972@newsletter", "120363350486178972@newsletter", "120363350486178972@newsletter", "120363350486178972@newsletter"]
 global.canalNombreGB = ["", "", "", ""]
@@ -67,33 +67,33 @@ global.imagen11 = fs.readFileSync("./media/menus/img10.jpg")
 global.imagen12 = fs.readFileSync("./media/menus/img11.jpg")
 global.imagen13 = fs.readFileSync("./media/menus/img12.jpg")
 
-global.img = 'https://qu.ax/vZii.jpg'
-global.img2 = 'https://qu.ax/hjcB.jpg'
+global.img = 'https://i.imgur.com/pvjGle3.jpeg'
+global.img2 = 'https://i.imgur.com/qfHeJPQ.jpeg'
 
-global.img3 = 'https://qu.ax/zELg.jpg' //prem
-global.img4 = 'https://qu.ax/YueS.jpg' //prem
+global.img3 = 'https://i.imgur.com/8FEimzs.jpeg' //prem
+global.img4 = 'https://i.imgur.com/D9ZqupW.jpeg' //prem
 
-global.img5 = 'https://qu.ax/xLcn.jpg'
-global.img6 = 'https://qu.ax/EGOe.jpg'
-global.img7 = 'https://qu.ax/wly.jpg'
-global.img8 = 'https://qu.ax/TPVV.jpg'
-global.img9 = 'https://qu.ax/qKlN.jpg'
+global.img5 = 'https://i.imgur.com/7Ra6zQN.jpeg'
+global.img6 = 'https://i.imgur.com/CRh95iB.jpeg'
+global.img7 = 'https://i.imgur.com/96qZgU9.jpeg'
+global.img8 = 'https://i.imgur.com/K63snB8.jpeg'
+global.img9 = 'https://i.imgur.com/c1SM14R.jpeg'
 
-global.img10 = 'https://qu.ax/SYFo.jpg'
-global.img11 = 'https://qu.ax/efhn.jpg'
-global.img12 = 'https://qu.ax/Vmpl.jpg'
-global.img13 = 'https://qu.ax/ElSy.jpg'
-global.img14 = 'https://qu.ax/Tgbe.jpg'
-global.img15 = 'https://qu.ax/Puwj.jpg' 
+global.img10 = 'https://i.imgur.com/R3c1FHb.jpeg'
+global.img11 = 'https://i.imgur.com/DP8APoZ.jpeg'
+global.img12 = 'https://i.imgur.com/ZBiHXVn.jpeg'
+global.img13 = 'https://i.imgur.com/ow5f4dl.jpeg'
+global.img14 = 'https://i.imgur.com/IHOYJXT.jpeg'
+global.img15 = 'https://i.imgur.com/40wzfCS.jpeg' 
 
 global.img16 = 'https://qu.ax/ovkN.jpg' //+18
 
-global.img17 = 'https://qu.ax/HJdr.jpg'
-global.img18 = 'https://qu.ax/HCt.jpg'
+global.img17 = 'https://i.imgur.com/VoyMpfq.jpeg'
+global.img18 = 'https://i.imgur.com/VoyMpfq.jpeg'
 
 global.logogit = 'https://qu.ax/RzKF.jpg'
 
-global.gataVidMenu = ['https://qu.ax/AAvg.mp4', 'https://qu.ax/SeFS.mp4', 'https://qu.ax/NqZN.mp4'][Math.floor(Math.random() * 3)]
+global.gataVidMenu = ['https://qu.ax/UWJOD.mp4', 'https://qu.ax/UWJOD.mp4', 'https://qu.ax/UWJOD.mp4'][Math.floor(Math.random() * 3)]
 global.gataMenu = [img, img2, img6, img7, img8, img9, img13, img14, img15, img17, img18][Math.floor(Math.random() * 11)]
 global.gataImg = [imagen1, imagen2, imagen3, imagen4, imagen5, imagen6, imagen7, imagen8, imagen9, imagen10, imagen11, imagen12, imagen13][Math.floor(Math.random() * 13)]
 
