@@ -48,8 +48,8 @@ global.redesMenu = [all, canal1, canal2, canal3, canal4, md, ig, paypal, yt, asi
 global.accountsgb = [all, canal1, canal2, canal3, canal4, tk, ig, yt, paypal, fb, ths, md, asistencia][Math.floor(Math.random() * 13)]
 global.cuentas = [grupo1, grupo2, grupo_collab1, grupo_collab2, grupo_collab3, grupo_collab4][Math.floor(Math.random() * 6)]
 
-global.canalIdGB = ["120363160031023229@newsletter", "120363169294281316@newsletter", "120363203805910750@newsletter", "120363302472386010@newsletter"]
-global.canalNombreGB = ["INFINITY-WA 💫", "GB - UPDATE 🐈", "Tips sobre GataBot 🤩", "NEW PROJECT: YartexBot-MD ✨"]
+global.canalIdGB = ["120363350486178972@newsletter", "120363350486178972@newsletter", "120363350486178972@newsletter", "120363350486178972@newsletter"]
+global.canalNombreGB = ["", "", "", ""]
 global.channelRD = await getRandomChannel()
 
 // Imágenes 

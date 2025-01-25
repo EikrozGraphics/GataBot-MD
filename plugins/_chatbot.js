@@ -50,7 +50,7 @@ if (/^infohost$/i.test(m.text)) {
  await conn.sendMessage(m.chat, { text: txt,
 contextInfo:{
 forwardedNewsletterMessageInfo: { 
-newsletterJid: '120363301598733462@newsletter', 
+newsletterJid: '120363350486178972@newsletter', 
 serverMessageId: '', 
 newsletterName: 'Sky-Ultra-Plus ☁️' }, 
 forwardingScore: 9999999,
