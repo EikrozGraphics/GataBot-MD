@@ -25,7 +25,7 @@ let mime = (quoted.msg || quoted).mimetype || ''
 let isMedia = /image|video|sticker|audio/.test(mime)
 let more = String.fromCharCode(8206)
 let masss = more.repeat(850)
-let htextos = `${text ? text : "𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿"}`
+let htextos = `${text ? text : "Eikroz𝘽𝙤𝙩-𝙈𝘿"}`
 if ((isMedia && quoted.mtype === 'imageMessage') && htextos) {
 var mediax = await quoted.download?.()
 conn.sendMessage(m.chat, { image: mediax, mentions: users, caption: htextos, mentions: users }, { quoted: null })
