@@ -431,18 +431,18 @@ else return emotttt[results[0][0]];
 
 // IDs de canales
 global.ch = {
-ch1: '120363336642332098@newsletter',
-ch2: '120363160031023229@newsletter',
-ch3: '120363169294281316@newsletter',
-ch4: '120363203805910750@newsletter',
-ch5: '120363302472386010@newsletter',
-ch6: '120363301598733462@newsletter',
-ch7: '120363190430436554@newsletter',
-ch8: '120363374372683775@newsletter', 
-ch9: '120363167110224268@newsletter',
-ch10: '120363323882134704@newsletter',
-ch11: '120363370415738881@newsletter',
-ch12: '120363385983031660@newsletter',
+ch1: '120363350486178972@newsletter',
+ch2: '120363350486178972@newsletter',
+ch3: '120363350486178972@newsletter',
+ch4: '120363350486178972@newsletter',
+ch5: '120363350486178972@newsletter',
+ch6: '120363350486178972@newsletter',
+ch7: '120363350486178972@newsletter',
+ch8: '120363350486178972@newsletter', 
+ch9: '120363350486178972@newsletter',
+ch10: '120363350486178972@newsletter',
+ch11: '120363350486178972@newsletter',
+ch12: '120363350486178972@newsletter',
 }
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
@@ -453,24 +453,24 @@ console.log(chalk.redBright("Update 'config.js'"));
 import(`${file}?update=${Date.now()}`);
 })
 
-global.yt = 'https://youtube.com/@gatadios'
-global.ig = 'https://www.instagram.com/gata_dios'
-global.md = 'https://github.com/GataNina-Li/GataBot-MD'
-global.fb = 'https://www.facebook.com/groups/872989990425789'
-global.tk = 'https://www.tiktok.com/@gata_dios'
-global.ths = 'https://www.threads.net/@gata_dios'
-global.paypal = 'https://paypal.me/OficialGD'
-global.asistencia = 'https://wa.me/message/MEKOUFBEOG5ED1'
-global.all = 'https://www.atom.bio/GataBot'
-global.canal1 = 'https://whatsapp.com/channel/0029Va4QjH7DeON0ePwzjS1A'
-global.canal2 = 'https://whatsapp.com/channel/0029Va6yY0iLY6d6XDmqA03g'
-global.canal3 = 'https://whatsapp.com/channel/0029VaKn22pDJ6GwY61Ftn15'
-global.canal4 = 'https://t.me/globalgb'
+global.yt = ''
+global.ig = 'https://www.instagram.com/eikroz'
+global.md = 'https://github.com/EikrozGraphics/GataBot-MD'
+global.fb = 'https://www.facebook.com/eikroz'
+global.tk = ''
+global.ths = ''
+global.paypal = 'h'
+global.asistencia = ''
+global.all = ''
+global.canal1 = ''
+global.canal2 = ''
+global.canal3 = ''
+global.canal4 = ''
 
-global.soporteGB = "https://chat.whatsapp.com/GQ82mPnSYnm0XL2hLPk7FV"
-global.grupo1 = "https://chat.whatsapp.com/KNwcGS4PCEN5qjbHD5VDZM"
-global.grupo2 = "https://chat.whatsapp.com/LfcjmLcYax431QXBO0CSPk"
-global.grupo_collab1 = "https://chat.whatsapp.com/IO5k0UOF7hOJHE1eH3Fcxh"
-global.grupo_collab2 = "https://chat.whatsapp.com/GFsgXW2VD4I4FEOSlEg9wp"
-global.grupo_collab3 = "https://chat.whatsapp.com/H1TEBeMtFVv3RcayD1WfGU"
-global.grupo_collab4 = "https://chat.whatsapp.com/LuD3YzdOjH16LUwPPCVmL6"
+global.soporteGB = ""
+global.grupo1 = ""
+global.grupo2 = ""
+global.grupo_collab1 = ""
+global.grupo_collab2 = ""
+global.grupo_collab3 = ""
+global.grupo_collab4 = ""
