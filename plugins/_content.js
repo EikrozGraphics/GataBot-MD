@@ -49,7 +49,7 @@ global.accountsgb = [][Math.floor(Math.random() * 13)]
 global.cuentas = [][Math.floor(Math.random() * 6)]
 
 global.canalIdGB = ["120363350486178972@newsletter", "120363350486178972@newsletter", "120363350486178972@newsletter", "120363350486178972@newsletter"]
-global.canalNombreGB = ["", "", "", ""]
+global.canalNombreGB = ["🔥📱PLATAFORMAS FREE📱🔥", "🔥📱PLATAFORMAS FREE📱🔥", "🔥📱PLATAFORMAS FREE📱🔥", "🔥📱PLATAFORMAS FREE📱🔥"]
 global.channelRD = await getRandomChannel()
 
 // Imágenes 
