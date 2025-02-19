@@ -10,39 +10,36 @@ m.isBot = m.id.startsWith('BAE5') && m.id.length === 16 || m.id.startsWith('3EB0
 if (m.isBot) return 
 if (chat.isBanned) return
  
-let vn = 'https://qu.ax/Ocxm.mp3'
-let bot = `${pickRandom([`*¡𝑬𝒚! 𝑨𝒒𝒖í 𝒆𝒔𝒕𝒐𝒚. 𝒀𝒐 𝒑𝒖𝒆𝒅𝒐 𝒂𝒚𝒖𝒅𝒂𝒓 👉👈 𝑯𝒆𝒚! 𝑰'𝒎 𝒉𝒆𝒓𝒆. 𝑰 𝒄𝒂𝒏 𝒉𝒆𝒍𝒑 🙌*`, `Aqui estoy | Here I am 😼`, `*Hola Aqui estoy yo puedo ayudar? | Hello, here I am, can I help? 😸*`])}`.trim()
+let vn = 'https://qu.ax/Ocxm.mp3'im
+let bot = `${pickRandom([`*¡𝑬𝒚! 𝑨𝒒𝒖í 𝒆𝒔𝒕𝒐𝒚. 𝒀𝒐 𝒑𝒖𝒆𝒅𝒐 𝒂𝒚𝒖𝒅𝒂𝒓 👉👈 𝑯𝒆𝒚! 𝑰'𝒎 𝒉𝒆𝒓𝒆. 𝑰 𝒄𝒂𝒏 𝒉𝒆𝒍𝒑 🙌*`, `Aqui estoy | Here I am 😼`, `*Hola Aqui estoy yo puedo ayudar? | Hello, here I am, can I help? 😸*`])}`.tr()
 let txt = `*¿Tu Nokia es muy lento y necesitas que tu bot esté activo 24/7?* 📱⏳
 
 ¡Tenemos la solución perfecta para ti! 🎉 Mantén tu bot funcionando sin interrupciones con nuestros servidores, Ofrecemos servidores gratuitos y de pago a precios súper accesibles, al alcance de todos. 💸 
 
-🖥️ *Totalmente compatible con GataBot:* Disfruta al máximo de su potencial en nuestros servidores de alto rendimiento, asegurando una experiencia fluida y de alta calidad. El staff de GataBot y CorinPlus Host se encarga de que disfrutes de todas sus funciones al máximo. 😺✨
+🖥️ *Totalmente compatible con EikrozBot:* Disfruta al máximo de su potencial en nuestros servidores de alto rendimiento, asegurando una experiencia fluida y de alta calidad. El staff de GataBot y CorinPlus Host se encarga de que disfrutes de todas sus funciones al máximo. 😺✨
 
 🟢 \`\`\`Información del Host\`\`\`
 
 💻 *Página:*
-https://dash.skyultraplus.com
+
 
 *🟢 Dashboard:*
-https://dash.skyultraplus.com
+
 
 ⚙️ *Panel*
-https://panel.skyultraplus.com
+
 
 💥 *Comunidad de WhatsApp:*
-https://chat.whatsapp.com/KGPhTIfgOzZCMNqoc3R7OW
+
 
 *🟣 Discord:*
-https://discord.gg/zvKgtc2RBc
+
 
 🧡 *Canal de WhatsApp:*
-https://whatsapp.com/channel/0029VakUvreFHWpyWUr4Jr0g
+
 
 🗣📲 *Contacto:*
-• wa.me/5214531287294
-• wa.me/15167096032
-• wa.me/573147616444
-• https://www.facebook.com/elrebelde21
+
 
 No esperes más y lleva tu bot al siguiente nivel con nuestro servicio de alojamiento. ¡Es fácil, rápido y económico! 💪🚀` 
 
@@ -50,15 +47,15 @@ if (/^infohost$/i.test(m.text)) {
  await conn.sendMessage(m.chat, { text: txt,
 contextInfo:{
 forwardedNewsletterMessageInfo: { 
-newsletterJid: '120363350486178972@newsletter', 
+newsletterJid: '', 
 serverMessageId: '', 
-newsletterName: 'Sky-Ultra-Plus ☁️' }, 
+newsletterName: '' }, 
 forwardingScore: 9999999,
 isForwarded: true, 
 "externalAdReply": {
 "showAdAttribution": true,
 "containsAutoReply": true,
-title: `🤖 𝐒𝐊𝐘𝐏𝐋𝐔𝐒-𝐇𝐎𝐒𝐓 🤖`,
+title: ``,
 body: `¡El plus que necesitas!_`,
 "previewType": "PHOTO",
 thumbnailUrl: 'https://cloud.dorratz.com/files/0e620e089bf149565c789c350f4f3347.jpg', 
@@ -93,7 +90,7 @@ console.error(error);
 let query = m.text;
 let username = `${m.pushName}`;
 
-let syms1 = `Serás EikrozBot, el bot creado por Eikroz Graphics para WhatsApp. Tu misión es entretener, generar risas y también ser útil. Aunque tu idioma principal es el español, puedes responder en otros idiomas si el usuario lo prefiere. tiene este rol que chat divertido con exploit incluido osea los quiere dices es que este rol solo es humor, divertido, no que tome nada real, tu respuesta sera divertida, humor, y usar mucho emojis el tu respuesta.
+let syms1 = `Serás EikrozBot, el bot creado por Eikroz Graphics para WhatsApp. Tu misión es entretener y también ser útil. Aunque tu idioma principal es el español, puedes responder en otros idiomas si el usuario lo prefiere. tiene este rol que chat divertido con exploit incluido osea los quiere dices es que este rol solo es humor no que tome nada real y usar mucho emojis el tu respuesta.
 
 "general risa el chat por que este rol actúal más como simsimi" Chatbot no chatgpt. 
 
