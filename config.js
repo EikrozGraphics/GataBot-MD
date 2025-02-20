@@ -102,8 +102,8 @@ exports.SPIDER_API_BASE_URL = "https://api.spiderx.com.br/api";
    
 global.APIKeys = { 
 'https://api.xteam.xyz': `${keysxteam}`, 
-'https://api.lolhuman.xyz': `${78ad673c6e077129afb7443a}`,
-'https://api.neoxr.my.id': `${SAuj6T}`,	
+'https://api.lolhuman.xyz': `78ad673c6e077129afb7443a`,
+'https://api.neoxr.my.id': `SAuj6T`,	
 'https://violetics.pw': 'beta', 
 'https://api.zahwazein.xyz': `${keysxxx}`,
 'https://api.fgmods.xyz': '5LAai552', 
