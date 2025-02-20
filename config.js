@@ -95,10 +95,10 @@ botcahx: 'https://api.botcahx.biz.id',
 ibeng: 'https://api.ibeng.tech/docs',	
 rose: 'https://api.itsrose.site',
 popcat : 'https://api.popcat.xyz',
-xcoders : 'https://api-xcoders.site'
+xcoders : 'https://api-xcoders.site',
+SPIDER_API_BASE_UR: 'https://api.spiderx.com.br/api'
 },
-   
-exports.SPIDER_API_BASE_URL = "https://api.spiderx.com.br/api";
+
    
 global.APIKeys = { 
 'https://api.xteam.xyz': `${keysxteam}`, 
@@ -111,10 +111,10 @@ global.APIKeys = {
 'https://api.botcahx.biz.id': 'Admin', 
 'https://api.ibeng.tech/docs': 'tamvan', 
 'https://api.itsrose.site': 'Rs-Zeltoria', 
-'https://api-xcoders.site': 'Frieren' 
+'https://api-xcoders.site': 'Frieren',
+'https://api.spiderx.com.br/api' : 'QIjBrDig8SV2DG1AJKbr'
 }
 
-exports.SPIDER_API_TOKEN = "QIjBrDig8SV2DG1AJKbr";
 
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
