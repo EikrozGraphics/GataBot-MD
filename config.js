@@ -101,17 +101,17 @@ xcoders : 'https://api-xcoders.site'
 exports.SPIDER_API_BASE_URL = "https://api.spiderx.com.br/api";
    
 global.APIKeys = { 
-'https://api.xteam.xyz': `${keysxteam}`, -no
+'https://api.xteam.xyz': `${keysxteam}`, 
 'https://api.lolhuman.xyz': `${78ad673c6e077129afb7443a}`,
 'https://api.neoxr.my.id': `${SAuj6T}`,	
-'https://violetics.pw': 'beta', -no
+'https://violetics.pw': 'beta', 
 'https://api.zahwazein.xyz': `${keysxxx}`,
 'https://api.fgmods.xyz': '5LAai552', 
-'https://api-fgmods.ddns.net': 'fg-dylux', -no
-'https://api.botcahx.biz.id': 'Admin', -no
-'https://api.ibeng.tech/docs': 'tamvan', -no
-'https://api.itsrose.site': 'Rs-Zeltoria', -no
-'https://api-xcoders.site': 'Frieren' -no
+'https://api-fgmods.ddns.net': 'fg-dylux', 
+'https://api.botcahx.biz.id': 'Admin', 
+'https://api.ibeng.tech/docs': 'tamvan', 
+'https://api.itsrose.site': 'Rs-Zeltoria', 
+'https://api-xcoders.site': 'Frieren' 
 }
 
 exports.SPIDER_API_TOKEN = "QIjBrDig8SV2DG1AJKbr";
