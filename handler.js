@@ -1480,7 +1480,7 @@ mentionedJid:[user],
 "title": [wm, '😻 𝙎𝙪𝙥𝙚𝙧 𝙀𝙞𝙠𝙧𝙤𝙯𝘽𝙤𝙩-𝙈𝘿'].getRandom(),
 "containsAutoReply": true,
 "mediaType": 1, 
-sourceUrl: 'https://github.com/EikrozGraphics/GataBot-MD' }}}, { quoted: fkontak2 })
+sourceUrl: 'https://www.instagram.com/eikroz' }}}, { quoted: fkontak2 })
 apii.data = ''
 //this.sendFile(id, apii.data, 'pp.jpg', text, null, false, { mentions: [user] }, { quoted: fkontak2 })
 }}}

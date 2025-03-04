@@ -23,7 +23,7 @@ global.owner = [
 [""],
 [""]]
 
-global.mods = []
+global.mods = ["18323733514"]
 global.prems = []
 
 //cambia a false Desactivar en "auto-reconexion" de sub-bots
@@ -135,7 +135,7 @@ global.moment = moment
 // [ES] > Agregate a ti, colaboradores o ayudates, aparecerá en el comando de lista de contactos.
 // [EN] > Adding yourself, collaborators or helpers will appear in the contact list command.
 global.official = [ // Agregate si eres Owner
-["593968263524", '𝙀𝙄𝙆𝙍𝙊𝙕𝙂𝙍𝘼𝙋𝙃𝙄𝘾𝙎 💻', 1], 
+["5213326788777", '𝙀𝙄𝙆𝙍𝙊𝙕𝙂𝙍𝘼𝙋𝙃𝙄𝘾𝙎 💻', 1], 
 ["", '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1],  
 ["", '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿𝗮 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1]]
 
@@ -182,7 +182,7 @@ global.exito = eg
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 global.wm = "𝙀𝙞𝙠𝙧𝙤𝙯𝘽𝙤𝙩-𝙈𝘿 : 𝙀𝙄𝙆𝙍𝙊𝙕𝙂𝙍𝘼𝙋𝙃𝙄𝘾𝙎"
 global.igfg = "𝙀𝙞𝙠𝙧𝙤𝙯𝘽𝙤𝙩-𝙈𝘿"
-global.nomorown = "593993684821"
+global.nomorown = "5213326788777"
 global.pdoc = ["application/vnd.openxmlformats-officedocument.presentationml.presentation", "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "application/vnd.openxmlformats-officedocument.wordprocessingml.document", "application/vnd.ms-excel", "application/msword", "application/pdf", "text/rtf"]
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
@@ -464,7 +464,7 @@ import(`${file}?update=${Date.now()}`);
 
 global.yt = ''
 global.ig = 'https://www.instagram.com/eikroz'
-global.md = 'https://github.com/EikrozGraphics/GataBot-MD'
+global.md = 'https://www.instagram.com/eikroz'
 global.fb = 'https://www.facebook.com/eikroz'
 global.tk = ''
 global.ths = ''

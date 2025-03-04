@@ -73,7 +73,7 @@ if (command == 'multijuegos') {
             //let s = `Bienvenido al Multijuegos Aleeatorios`
 
  const templateButtonsReplyMessage = [
-{index: 1, urlButton: {displayText: '𝙀𝙞𝙠𝙧𝙤𝙯𝘽𝙤𝙩-𝙈𝘿', url: 'https://github.com/EikrozGraphics/GataBot-MD'}},
+{index: 1, urlButton: {displayText: '𝙀𝙞𝙠𝙧𝙤𝙯𝘽𝙤𝙩-𝙈𝘿', url: 'https://www.instagram.com/eikroz'}},
 {index: 2, urlButton: {displayText: '𝙄𝙣𝙨𝙩𝙖𝙜𝙧𝙖𝙢', url: 'https://www.instagram.com/eikroz'}},
 {index: 3, quickReplyButton: {displayText: '𝙄𝙣𝙞𝙘𝙞𝙖𝙧 | 𝙎𝙩𝙖𝙧𝙩 ✨', id: '.juegos'}},
 {index: 4, quickReplyButton: {displayText: '𝙈𝙚𝙣𝙪 𝙅𝙪𝙚𝙜𝙤𝙨 | 𝙂𝙖𝙢𝙚𝙨 𝙈𝙚𝙣𝙪 🎡', id: '#juegosmenu'}},
@@ -104,7 +104,7 @@ conn.sendMessage(m.chat, t, m)
               let ss = await `𝙀𝙞𝙠𝙧𝙤𝙯𝘽𝙤𝙩-𝙈𝘿 | 𝙀𝙄𝙆𝙍𝙊𝙕𝙂𝙍𝘼𝙋𝙃𝙄𝘾𝙎`
 
  const templateButtonsReplyMessage = [
-{index: 1, urlButton: {displayText: '𝙀𝙞𝙠𝙧𝙤𝙯𝘽𝙤𝙩-𝙈𝘿', url: 'https://github.com/EikrozGraphics/GataBot-MD'}},
+{index: 1, urlButton: {displayText: '𝙀𝙞𝙠𝙧𝙤𝙯𝘽𝙤𝙩-𝙈𝘿', url: 'https://www.instagram.com/eikroz'}},
 {index: 2, urlButton: {displayText: '𝙄𝙣𝙨𝙩𝙖𝙜𝙧𝙖𝙢', url: 'https://www.instagram.com/eikroz'}},
 {index: 3, quickReplyButton: {displayText: `𝙅𝙪𝙜𝙖𝙧 ${emojis1}`, id: juegos}},
 {index: 4, quickReplyButton: {displayText: `𝙅𝙪𝙜𝙖𝙧 ${emojis2}`, id: juegos2}},
@@ -134,7 +134,7 @@ conn.sendMessage(m.chat, tt, m)
            let sss = await `𝙀𝙞𝙠𝙧𝙤𝙯𝘽𝙤𝙩-𝙈𝘿 | 𝙀𝙄𝙆𝙍𝙊𝙕𝙂𝙍𝘼𝙋𝙃𝙄𝘾𝙎`
 
  const templateButtonsReplyMessage = [
-{index: 1, urlButton: {displayText: '𝙀𝙞𝙠𝙧𝙤𝙯𝘽𝙤𝙩-𝙈𝘿', url: 'https://github.com/EikrozGraphics/GataBot-MD'}},
+{index: 1, urlButton: {displayText: '𝙀𝙞𝙠𝙧𝙤𝙯𝘽𝙤𝙩-𝙈𝘿', url: 'https://www.instagram.com/eikroz'}},
 {index: 2, urlButton: {displayText: '𝙄𝙣𝙨𝙩𝙖𝙜𝙧𝙖𝙢', url: 'https://www.instagram.com/eikroz'}},
 {index: 3, quickReplyButton: {displayText: `𝙅𝙪𝙜𝙖𝙧 ${emojis1}`, id: juegos}},
 {index: 4, quickReplyButton: {displayText: `𝙅𝙪𝙜𝙖𝙧 ${emojis2}`, id: juegos2}},
