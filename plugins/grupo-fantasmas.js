@@ -39,7 +39,7 @@ chat.welcome = true;
 }
 break;
 }};
-handler.command = /^(fantasmas|kickfantasmas)$/i;
+handler.command = /^(kickfantasmas)$/i;
 handler.group = handler.botAdmin = handler.admin = true;
 handler.fail = null;
 handler.register = true;
